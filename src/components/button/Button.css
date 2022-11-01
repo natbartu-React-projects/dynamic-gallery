@@ -11,8 +11,9 @@ button {
   padding: 10px 0;
   width: 110px;
   margin: 0 10px;
-  background: #414480;
+  background: #d04505;
   color: #fff;
   font-size: 18px;
   cursor: pointer;
+  border-radius: 30px;
 }
