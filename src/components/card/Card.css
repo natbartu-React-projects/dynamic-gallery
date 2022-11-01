@@ -1,0 +1,35 @@
+.CardContainer {
+  width: 90%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 5px solid #17182f;
+}
+
+.card:nth-child(6n - 5) {
+  height: 25%;
+}
+
+.card:nth-child(6n-4) {
+  height: 75%;
+}
+
+.card:nth-child(6n-3) {
+  height: 50%;
+}
+
+.card:nth-child(6n-2) {
+  height: 50%;
+}
+
+.card:nth-child(6n-1) {
+  height: 66.666%;
+}
+
+.card:nth-child(6n) {
+  height: 33.333%;
+}
