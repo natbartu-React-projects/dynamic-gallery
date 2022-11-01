@@ -3,10 +3,10 @@ import Container from "./components/container/Container";
 
 const App = ({ children }) => {
   return (
-    <div className="App">
+    <section className="hero">
       {children}
       <Container />
-    </div>
+    </section>
   );
 };
 
