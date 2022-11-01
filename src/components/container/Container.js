@@ -5,10 +5,10 @@ import Card from "../card/Card";
 
 const Container = () => {
   return (
-    <div className="container">
+    <section className="hero">
       <Card />
       <Button />
-    </div>
+    </section>
   );
 };
 
