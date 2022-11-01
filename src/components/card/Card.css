@@ -15,19 +15,19 @@
   height: 25%;
 }
 
-.card:nth-child(6n-4) {
+.card:nth-child(6n - 4) {
   height: 75%;
 }
 
-.card:nth-child(6n-3) {
+.card:nth-child(6n - 3) {
   height: 50%;
 }
 
-.card:nth-child(6n-2) {
+.card:nth-child(6n - 2) {
   height: 50%;
 }
 
-.card:nth-child(6n-1) {
+.card:nth-child(6n - 1) {
   height: 66.666%;
 }
 
