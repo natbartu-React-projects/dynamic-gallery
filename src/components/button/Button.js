@@ -1,11 +1,22 @@
 import React from "react";
 import "./Button.css";
 
-const Button = () => {
+const Button = ({ images, setImages }) => {
+  const getNewImage = () => {
+    setImages([
+      ...images,
+      {
+        url: `https://source.unsplash.com/random${Math.floor(
+          Math.random() * 100
+        )}`,
+      },
+    ]);
+  };
+
   return (
     <div className="btnContainer">
       <button>Remove</button>
-      <button>Add</button>
+      <button onClick={getNewImage}>Add</button>
     </div>
   );
 };
