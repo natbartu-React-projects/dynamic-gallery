@@ -7,8 +7,10 @@
 }
 
 .card {
-  border: 5px solid #17182f;
-  
+  border: 3px solid #d04505;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 30px;
 }
 
 .card:nth-child(6n - 5) {

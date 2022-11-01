@@ -10,7 +10,6 @@ const Card = ({ images }) => {
           key={idx}
           style={{
             background: `url("${img.url}") no-repeat center/cover`,
-            backgroundSize: `contain`,
           }}
         ></div>
       ))}
