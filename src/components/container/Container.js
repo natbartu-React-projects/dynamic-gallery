@@ -16,7 +16,7 @@ const Container = () => {
   return (
     <section className="hero">
       <Card images={images} />
-      <Button setImages={setImages} />
+      <Button images={images} setImages={setImages} />
     </section>
   );
 };

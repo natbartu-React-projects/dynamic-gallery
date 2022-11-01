@@ -6,7 +6,7 @@ const Button = ({ images, setImages }) => {
     setImages([
       ...images,
       {
-        url: `https://source.unsplash.com/random${Math.floor(
+        url: `https://source.unsplash.com/random/${Math.floor(
           Math.random() * 100
         )}`,
       },
