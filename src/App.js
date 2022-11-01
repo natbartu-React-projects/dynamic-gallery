@@ -1,19 +1,13 @@
-import React, { useState } from "react";
-import CardContainer from "./components/cardContainer/CardContainer";
+import React from "react";
+import Container from "./components/container/Container";
+import Images from "./components/images/Images";
 
-const App = () => {
-  const [images, setImages] = useState([
-    { url: "https://source.unsplash.com/random/1" },
-    { url: "https://source.unsplash.com/random/2" },
-    { url: "https://source.unsplash.com/random/3" },
-    { url: "https://source.unsplash.com/random/4" },
-    { url: "https://source.unsplash.com/random/5" },
-    { url: "https://source.unsplash.com/random/6" },
-  ]);
-
+const App = ({ children }) => {
   return (
     <div className="App">
-      <CardContainer />
+      {children}
+      <Images />
+      <Container />
     </div>
   );
 };
