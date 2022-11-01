@@ -1,10 +1,11 @@
 import React from "react";
-import Button from "./CardContainer";
 import "./CardContainer.css";
+import Button from "../button/Button";
 
 const CardContainer = () => {
   return (
-    <div className="card-container">
+    <div>
+      <div className="card-container"></div>
       <Button />
     </div>
   );
