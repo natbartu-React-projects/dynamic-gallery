@@ -15,6 +15,7 @@ const Container = () => {
 
   return (
     <section className="hero">
+      <h1>Dynamic Gallery</h1>
       <Card images={images} />
       <Button images={images} setImages={setImages} />
     </section>

@@ -7,3 +7,11 @@
   align-items: center;
   justify-content: center;
 }
+
+h1 {
+  color: #fff;
+  font-size: 30px;
+  font-family: Georgia, serif;
+  margin-top: -50px;
+  margin-bottom: 40px;
+}
