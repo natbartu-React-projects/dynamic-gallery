@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import CardContainer from "./components/CardContainer";
+import CardContainer from "./components/cardContainer/CardContainer";
 
 const App = () => {
   const [images, setImages] = useState([

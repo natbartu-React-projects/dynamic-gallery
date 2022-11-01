@@ -1,0 +1,15 @@
+.btnContainer {
+  padding: 20px 0 0 0;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 10px 0;
+  width: 110px;
+  margin: 0 10px;
+  background: #414480;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
