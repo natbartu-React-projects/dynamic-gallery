@@ -8,7 +8,10 @@ const Card = ({ images }) => {
         <div
           className="card"
           key={idx}
-          style={{ background: `url("${img.url}") no-repeat center/cover` }}
+          style={{
+            background: `url("${img.url}") no-repeat center/cover`,
+            backgroundSize: `contain`,
+          }}
         ></div>
       ))}
     </div>
