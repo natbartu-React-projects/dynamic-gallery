@@ -3,7 +3,7 @@ import "./Card.css";
 
 const Card = ({ images }) => {
   return (
-    <div className="CardContainer">
+    <div className="cardContainer">
       {images.map((img, idx) => (
         <div
           className="card"

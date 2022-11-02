@@ -1,8 +1,12 @@
 .btnContainer {
-  padding: 20px 0 0 0;
+  position: fixed;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-basis: flex-end;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  z-index: 1;
 }
 
 button {
